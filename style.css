@@ -31,3 +31,18 @@
   background-image: url(img/mv.png);
   background-size: 100% 100%;
 }
+
+.main-visual-content {
+  text-align: center;
+  color: #FAFAFA;
+  padding-top: 200px;
+}
+
+.main-visual-name {
+  font-size: 64px;
+  padding-bottom: 10px;
+}
+
+.main-visual-text {
+  font-size: 20px;
+}
