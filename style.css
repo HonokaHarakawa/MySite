@@ -47,17 +47,33 @@
   font-size: 20px;
 }
 
-main {
+.portforio {
   width: 100%;
   height: auto;
   background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
 }
 
+.main-box {
+  width: 920px;
+  text-align: center;
+  padding-top: 90px;
+}
 
 .main-name {
   font-size: 32px;
-  color: #000000
+  color: #000000;
 }
+
+.main-text {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
 
 footer {
   width: 100%;
