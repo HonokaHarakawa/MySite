@@ -8,6 +8,9 @@
   width: 100%;
   height: 70px;
   background-color: #EC715F;
+}
+
+.header-box {
   display: flex;
   justify-content: center;
 }
@@ -189,7 +192,7 @@ main {
   width: 1024px;
   margin: 0 auto;
   display: flex;
-  
+
 }
 
 .icon {
@@ -263,4 +266,18 @@ footer {
 .footer-text {
   font-size: 16px;
   color: #FAFAFA;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 50px;
+  }
+  
+  .main-visual {
+    width: 100%;
+    height: 650px;
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+  }
 }
