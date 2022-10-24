@@ -28,12 +28,18 @@
 
 
 .nav-list-item {
-  color: #FAFAFA;
   font-size: 16px;
   list-style: none;
   display: inline-block;
   margin: 25px 30px;
 }
+
+.nav-list-item a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+
 
 .main-visual {
   width: 100%;
@@ -62,7 +68,7 @@ main {
   justify-content: center;
 }
 
-.portforio {
+#portforio {
   width: 100%;
   background-color: #ECEFF1;
 }
@@ -148,6 +154,7 @@ main {
   width: 980px;
   margin: 0 auto;
   display: flex;
+  padding-bottom: 90px;
 }
 
 .text-box {
@@ -174,7 +181,7 @@ main {
   text-align: left;
 }
 
-.profile {
+#profile {
   background-color: #ECEFF1
 }
 
@@ -207,10 +214,42 @@ main {
   margin: 20px 0 5px 0;
 }
 
+.contact-box {
+  width: 800px;
+  margin: 0 auto 90px auto;
+  display: flex;
+}
+
+.left {
+  width: 400px;
+}
+
+.left-box {
+  width: 130px;
+  margin: 0 auto;
+}
 .body {
   font-size: 16px;
   color: #000000;
   text-align: left;
+}
+.right {
+  width: 400px;
+}
+
+.right-box {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.icon-box {
+  width: 170px;
+  display: flex;
+}
+
+.icon-box .fab {
+  font-size: 50px;
+  margin-right: 20px;
 }
 
 footer {
