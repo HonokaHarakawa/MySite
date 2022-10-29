@@ -121,31 +121,31 @@ main {
   margin-bottom: 10px;
 }
 
-.photo-box:nth-child(1) {
+.bg1 {
   background-image: url(img/sketch.jpg);
   margin-right: 10px;
 }
 
-.photo-box:nth-child(2) {
+.bg2 {
   background-image: url(img/websuku.png);
   margin-right: 10px;
 }
 
-.photo-box:nth-child(3) {
+.bg3 {
   background-image: url(img/write.jpg);
 }
 
-.photo-box:nth-child(4) {
+.bg4 {
   background-image: url(img/webcamp.png);
   margin-right: 10px;
 }
 
-.photo-box:nth-child(5) {
+.bg5 {
   background-image: url(img/talk.jpg);
   margin-right: 10px;
 }
 
-.photo-box:nth-child(6) {
+.bg6 {
   background-image: url(img/webcamp-mother.png);
 }
 
@@ -307,22 +307,38 @@ footer {
 }
 
 .photo {
-  width: 90%;
-  justify-content: center;
+  width: 300px;
 }
 
 .photo-box {
   width: 300px;
   height: 250px;
-  background-size: cover;
-  background-position: center;
   margin-bottom: 10px;
+  margin-right: 0px;
 }
 
-.photo-box:nth-child(odd) {
+.sp-none {
   display: none;
 }
 
+.text {
+  width: 320px;
+  flex-flow: row wrap;
+}
+
+.profile-box {
+  width: 90%;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.picture {
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+}
 
 
 }
