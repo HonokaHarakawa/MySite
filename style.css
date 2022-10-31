@@ -275,15 +275,37 @@ footer {
 
   .header-box {
     width: 90%;
+    margin: 0 auto;
   }
 
   .site-logo {
     height: 50px;
   }
 
+  .menue {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin: 5px 0 5px auto;
+  }
+
+  .list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+  }
+
+  .list-bar:first-child {
+    margin-top: 10px;
+  }
+
   .nav-list {
     display: none;
   }
+
 
   .main-visual {
     width: 100%;
@@ -293,52 +315,71 @@ footer {
     background-position: center;
   }
 
-.main-visual-name {
-  font-size: 40px;
-}
+  .main-visual-name {
+    font-size: 40px;
+  }
 
-.main-visual-text {
-  font-size: 18px;
-}
+  .main-visual-text {
+    font-size: 18px;
+  }
 
-.main-box {
-  width: 90%;
-  margin: 0 auto;
-}
+  .main-box {
+    width: 90%;
+    margin: 0 auto;
+  }
 
-.photo {
-  width: 300px;
-}
+  .photo {
+    width: 300px;
+  }
 
-.photo-box {
-  width: 300px;
-  height: 250px;
-  margin-bottom: 10px;
-  margin-right: 0px;
-}
+  .photo-box {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
 
-.sp-none {
-  display: none;
-}
+  .sp-none {
+    display: none;
+  }
 
-.text {
-  width: 320px;
-  flex-flow: row wrap;
-}
+  .text {
+    width: 320px;
+    flex-flow: row wrap;
+  }
 
-.profile-box {
-  width: 90%;
-  flex-flow: row wrap;
-  text-align: center;
-}
 
-.picture {
-  margin-bottom: 20px;
-}
+  .profile-box {
+    width: 90%;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-bottom: 90px;
+  }
 
-.title {
-  text-align: center;
-}
+  .picture {
+    margin-bottom: 20px;
+  }
 
+  .title {
+    text-align: center;
+  }
+
+  .body {
+    text-align: center;
+  }
+
+  .contact-box {
+    width: 90%;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
 
 }
